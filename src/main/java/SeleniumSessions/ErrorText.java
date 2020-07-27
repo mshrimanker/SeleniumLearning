@@ -25,5 +25,7 @@ public class ErrorText {
 		
 		String errorText = driver.findElement(By.className("private-alert__title")).getText();
 		System.out.println(errorText);
+		
+		driver.quit();
 	}
 }
