@@ -6,6 +6,6 @@ public class TestUtil {
 		System.out.println("m1");
 		int a = 10;
 		int b = 20;
-		int c = 30;
+		int c = a+b;
 	}
 }
